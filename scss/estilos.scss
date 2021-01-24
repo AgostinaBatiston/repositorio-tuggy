@@ -1,0 +1,49 @@
+$ColorGris: grey;
+$LetraMediana: 30px;
+$ColorVioleta: violet;
+$Sexo: Masculino;
+p.TextoTienda {
+    color: $ColorGris;
+    font: $LetraMediana;
+}
+
+h2.TituloQuienesSomos {
+    color: $ColorGris;
+}
+
+h1.TituloPresentacion {
+    color: $ColorGris;
+}
+
+.seccion__imagen {
+    height: 280px;
+    width: 370px;
+}
+
+.header__logo {
+    height: 200px;
+    width: 250px;
+}
+
+.contacto__botonEnviar--color {
+    background-color: $ColorVioleta;
+}
+
+.sponsor__imagen {
+    height: 350px;
+    width: 320px;
+    border: solid green 4px;
+}
+
+.carrusel__imagen {
+    height: 480px;
+    width: 800px;
+}
+
+$redes: (Facebook: rgb(113, 122, 252), Instagram: pink);
+@each $red,
+$color in $redes {
+    .a--#{$red} {
+        background-color: $color;
+    }
+}
