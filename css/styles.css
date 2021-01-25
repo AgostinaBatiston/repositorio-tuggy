@@ -85,10 +85,6 @@ body {
     outline: 0 !important;
 }
 
-.fondoCarrusel {
-    background-image: url("imagenes/madera.jpg");
-}
-
 .fondoNavegador {
     background-color: #5B3E65;
 }
