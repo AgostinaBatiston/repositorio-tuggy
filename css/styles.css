@@ -85,6 +85,10 @@ body {
     outline: 0 !important;
 }
 
+.carruselImagen {
+    margin: 80px 0px 0px 0px;
+}
+
 .fondoCarrusel {
     background-image: url("imagenes/madera.jpg");
 }
