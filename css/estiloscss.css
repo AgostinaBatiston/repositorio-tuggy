@@ -24,16 +24,6 @@ h1.TituloPresentacion {
   width: 320px;
   border: solid green 4px; }
 
-.div__carrusel {
-  display: grid;
-  height: 400px;
-  width: 800px;
-  margin: 30px 50px 10px 40px; }
-
-.carrusel__imagen {
-  height: 480px;
-  width: 800px; }
-
 .a--Facebook {
   background-color: #717afc; }
 

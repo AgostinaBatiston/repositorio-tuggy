@@ -35,18 +35,6 @@ h1.TituloPresentacion {
     border: solid green 4px;
 }
 
-.div__carrusel {
-    display: grid;
-    height: 400px;
-    width: 800px;
-    margin: 30px 50px 10px 40px;
-}
-
-.carrusel__imagen {
-    height: 480px;
-    width: 800px;
-}
-
 $redes: (Facebook: rgb(113, 122, 252), Instagram: pink);
 @each $red,
 $color in $redes {
