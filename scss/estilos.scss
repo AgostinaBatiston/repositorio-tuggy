@@ -39,6 +39,10 @@ h1.TituloPresentacion {
     color: $ColorGris;
 }
 
+.sponsor__cardTexto {
+    color: $ColorGris;
+}
+
 $redes: (Facebook: rgb(113, 122, 252), Instagram: pink);
 @each $red,
 $color in $redes {
