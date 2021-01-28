@@ -24,6 +24,9 @@ h1.TituloPresentacion {
   width: 320px;
   border: solid green 4px; }
 
+.sponsor__presentacion {
+  color: grey; }
+
 .a--Facebook {
   background-color: #717afc; }
 

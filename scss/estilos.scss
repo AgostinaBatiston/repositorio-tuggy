@@ -35,6 +35,10 @@ h1.TituloPresentacion {
     border: solid green 4px;
 }
 
+.sponsor__presentacion {
+    color: $ColorGris;
+}
+
 $redes: (Facebook: rgb(113, 122, 252), Instagram: pink);
 @each $red,
 $color in $redes {
