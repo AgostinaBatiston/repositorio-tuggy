@@ -17,7 +17,7 @@ h1.TituloPresentacion {
 
 .sponsor__imagen {
   height: 350px;
-  width: 320px;
+  width: 280px;
   border: solid green 4px; }
 
 .sponsor__presentacion {
@@ -28,6 +28,11 @@ h1.TituloPresentacion {
 
 .sponsor__cardTexto {
   color: grey; }
+
+.sponsor__youtube {
+  width: 400px;
+  height: 300px;
+  margin: 0px 20px 0px 20px; }
 
 .contacto__fondo {
   background-color: #f9c5d1;
