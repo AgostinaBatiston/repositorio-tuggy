@@ -85,7 +85,7 @@ body {
     outline: 0 !important;
 }
 
-.animate__animated.animate__bounceInDown.animate__slower {
+.animate__animated.animate__bounceInDown.animate__slow {
     --animate-duration: 6s;
     --animate-delay: 0.9s;
 }
