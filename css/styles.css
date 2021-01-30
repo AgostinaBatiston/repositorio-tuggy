@@ -85,8 +85,9 @@ body {
     outline: 0 !important;
 }
 
-.animate__animated.animate__bounce {
+.animate__animated.animate__bounceInDown.animate__slower {
     --animate-duration: 6s;
+    --animate-delay: 0.9s;
 }
 
 .carrusel {
