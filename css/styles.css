@@ -90,6 +90,11 @@ body {
     --animate-delay: 0.4s;
 }
 
+.animate__animated.animate__backInDown.animate__slow {
+    --animate-duration: 3s;
+    --animate-delay: 0.8s;
+}
+
 .carrusel {
     height: 400px;
     width: 800px;
