@@ -54,6 +54,11 @@ $ColorVioleta: violet;
     width: 390px;
 }
 
+.tienda__contenedorImagen {
+    height: 250px;
+    width: 270px;
+}
+
 $redes: (Facebook: rgb(113, 122, 252), Instagram: pink);
 @each $red,
 $color in $redes {
