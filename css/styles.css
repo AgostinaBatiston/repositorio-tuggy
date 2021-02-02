@@ -129,6 +129,11 @@ body {
     text-align: center;
 }
 
+.animate__animated.animate__bounceInDown {
+    --animate-duration: 2s;
+    --animate-delay: 0.3s;
+}
+
 .fondoCarrusel {
     background-image: url("imagenes/madera.jpg");
 }
