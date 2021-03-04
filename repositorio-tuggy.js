@@ -16,8 +16,13 @@ class ShoppingCart {
     }​
 
     getLength = function() {
-        return this.cart.lenght;
+        return this.cart.length;
+    }
+
+    addValue = function(value) {
+        this.cart.push(value);
     }
 }
 
 var carrito = new ShoppingCart();
+carrito.addValue();
