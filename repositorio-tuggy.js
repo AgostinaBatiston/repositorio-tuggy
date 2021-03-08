@@ -1,3 +1,4 @@
+alert("Bienvenidos a Tuggy peluches! :D");
 class ShoppingCart {
 
     constructor() {
