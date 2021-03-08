@@ -43,14 +43,46 @@ class miProducto {
 
 }
 
-var producto1 = new miProducto('Prod 1', $450);
-var producto2 = new miProducto('Prod 2', $800);
+function ordenar(arreglo, criterio) {
+    if (criterio == 'a')
+        console.log(arreglo.sort(
+            function(a, b) {
+                if (a.precio > b.precio)
+                    return 1;
+                if (a.precio < b.precio)
+                    return -1;
+                return 0;
+            }
+        ));
+
+    if (criterio == 'd')
+        console.log(arreglo.sort(
+            function(a, b) {
+                if (a.precio > b.precio)
+                    return -1;
+                if (a.precio < b.precio)
+                    return 1;
+                return 0;
+            }
+        ));
+}
+
+
+var producto1 = new miProducto('Prod 1', $800);
+var producto2 = new miProducto('Prod 2', $450);
+
 
 var carrito = new ShoppingCart();
+
+
 
 carrito.getAdd(producto1);
 
 carrito.getAdd(producto2);
+
+var arreglo = [producto1, producto2];
+
+ordenar(arreglo, 'd');
 
 
 
